@@ -1,0 +1,2 @@
+class Cuty < ApplicationRecord
+end

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cuty.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cuty.description %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @cuty.image %>
+</p>
+
+<%= link_to 'Edit', edit_cuty_path(@cuty) %> |
+<%= link_to 'Back', cuties_path %>
